@@ -5,8 +5,10 @@
      - Widescreen Slide: 1280px × 720px (16:9 aspect ratio)
      - Custom: Set to your design's actual dimensions
   */
-  width: 960px;
+  width: 1280px;
+  
   height: 720px;
+  flex-shrink:0; 
 }
 
 /* ✏️ EDIT: Add your CSS styling for the design here!
@@ -26,9 +28,31 @@
 
 .my-design {
   /* ✏️ Delete this sample and add your design rules here */
-  h1 {
-    color: green;
-    font-size: 88px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-  }
+  background: url('photos/beach.png'); 
+  background-size: cover;
+  img: url('photos/cat.png');
+  
+  
+
+
 }
+
+.my-design h1 {
+  color: black;
+  font-size: 58px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 2px 2px 2px white;
+}
+.my-design h4 {
+  color: black
+  font-size: 32px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 2px 2px 2px white;
+
+}
+.my-design p {
+  color: black;
+  font-size: 16px
+  text-shadow: 1.5px 1.5px 2px white;
+}
+
