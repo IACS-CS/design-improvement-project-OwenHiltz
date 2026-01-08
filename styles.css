@@ -26,6 +26,16 @@
    }
 */
 
+/* Code generated in response to prompt: "Add cat.png centered vertically at the right edge of the page" via GitHub Copilot (GPT-5 mini) */
+.cat-right {
+position: fixed;
+right: 0;
+top: 55%;
+transform: translateY(-50%);
+max-width: 200px; 
+}
+/* End generated code */
+
 .my-design {
   /* ✏️ Delete this sample and add your design rules here */
   background: url('photos/beach.png'); 
